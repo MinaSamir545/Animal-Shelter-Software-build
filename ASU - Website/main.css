@@ -1,0 +1,2062 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.super,
+.super2 {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0rem;
+    top: 0rem;
+    z-index: 35;
+    overflow: auto;
+}
+
+.desktop {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 80rem;
+    height: 237.4375rem;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 93.75%;
+    height: 1.579%;
+    margin: 3.75rem 0rem 0rem 2.5rem;
+    z-index: 5;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    width: 11.5rem;
+    height: 3.75rem;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    width: 11.625rem;
+    height: 2.1875rem;
+    margin: 0.09rem 0rem 0rem 0rem;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+
+.subtitle {
+    display: flex;
+    align-items: center;
+    width: 11.25rem;
+    height: 0.9375rem;
+    margin: 0.58rem 0rem 0rem 0.27rem;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8125rem;
+    line-height: 0.9375rem;
+    letter-spacing: 0.18em;
+    color: #FFFFFF;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    width: 27.6875rem;
+    height: 1.6875rem;
+}
+
+.active-link,
+.link2,
+.link3,
+.link4 {
+    display: flex;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    text-decoration: none;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9375rem;
+    line-height: 160%;
+    letter-spacing: 0.08em;
+}
+
+.active-link {
+    width: 7.125rem;
+    height: 1.6875rem;
+    border-bottom: 0.1875rem solid #F1CDB3;
+    margin: 1rem 0.0625rem;
+    color: #FAFAFA;
+}
+
+.link2 {
+    width: 3.625rem;
+    height: 1.5rem;
+    margin: 1rem 9.37rem;
+    color: #CDCDCD;
+}
+
+.link3 {
+    width: 6.625rem;
+    height: 1.5rem;
+    margin: 1rem 15.2rem;
+    color: #CDCDCD;
+}
+
+.link4 {
+    width: 3.75rem;
+    height: 1.5rem;
+    margin: 1rem 24rem;
+    color: #CDCDCD;
+}
+
+.burger {
+    display: none;
+}
+
+.start-screen {
+    display: flex;
+    width: 100%;
+    height: 56.75rem;
+    margin-top: -7.5rem;
+}
+
+.start-screen-background {
+    display: flex;
+    width: 100%;
+    height: 56.75rem;
+    background: url(./assets/images/noise_transparent.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
+}
+
+.start-screen-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 93.75%;
+    height: 46.5rem;
+    margin: 10rem 2rem;
+}
+
+.start-screen-puppy {
+    display: flex;
+    position: absolute;
+    width: 43.625rem;
+    height: 45.5rem;
+    left: 33.875rem;
+    top: 11.25rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 31rem;
+    height: 20.0625rem;
+    margin-top: 11.5rem;
+}
+
+.heading {
+    width: 19.375rem;
+    height: 7.125rem;
+    margin-left: -10.6rem;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.75rem;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.subheading {
+    width: 28.75rem;
+    height: 4.5rem;
+    margin: 2.6rem 2rem 0rem 0.8125rem;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9375rem;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.078em;
+    color: #CDCDCD;
+}
+
+.btn1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 2.8125rem;
+    width: 12.9375rem;
+    height: 3.25rem;
+    margin: 2.6rem 17.1rem 0rem 0rem;
+    background: #F1CDB3;
+    border-radius: 6.25rem;
+    border: none;
+    outline: none;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.0625rem;
+    line-height: 130%;
+    letter-spacing: 0.0592em;
+}
+
+.about {
+    display: flex;
+    width: 100%;
+    height: 36.75rem;
+    left: 0rem;
+    top: 56.75rem;
+    background: #FFFFFF;
+}
+
+.about-content {
+    width: 93.75%;
+    height: 25.5rem;
+    margin: 5rem 22.5rem 6.25rem 2.5rem;
+}
+
+.about-pets {
+    width: 18.75rem;
+    height: 25.5rem;
+    margin-left: 11rem;
+    background: url(./assets/images/about-pets.png);
+}
+
+.text2 {
+    width: 26.875rem;
+    height: 23.75rem;
+    margin: -24.6rem 0rem 0rem 37.2rem;
+}
+
+.heading2 {
+    width: 23.125rem;
+    height: 5.625rem;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.1875rem;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.subheading21 {
+    display: flex;
+    align-items: center;
+    width: 26.875rem;
+    height: 9rem;
+    margin-top: 9.1rem;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9375rem;
+    line-height: 160%;
+    letter-spacing: 0.08em;
+    color: #4C4C4C;
+}
+
+.subheading22 {
+    width: 26.875rem;
+    height: 96px;
+    margin-top: -16.6rem;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9375rem;
+    line-height: 160%;
+    letter-spacing: 0.08em;
+    color: #4C4C4C;
+}
+
+.pets {
+    position: absolute;
+    width: 100%;
+    height: 54.8125rem;
+    left: 0rem;
+    top: 93.5rem;
+    background: #F6F6F6;
+}
+
+.popup {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 1280px;
+    height: 877px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto auto;
+    z-index: 30;
+    overflow: auto;
+    /* background: rgba(41, 41, 41, 0.6); */
+}
+
+.popup-content {
+    display: flex;
+    flex-direction: row;
+    background: #FAFAFA;
+    border-radius: 9px;
+    width: 70.3125%;
+    height: 57%;
+}
+
+.close-btn {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    left: 84.4%;
+    top: 15.4%;
+    border: 2px solid #F1CDB3;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+.close-btn img:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+}
+
+.pop-img {
+    width: 55.555%;
+    height: 100%;
+}
+
+.pop-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+.pop-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px 0px 0px 30px;
+    width: 351px;
+    height: 362px;
+    border-radius: 0px 9px 9px 0px;
+}
+
+.pop-text h3 {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+
+.pop-text h4 {
+    margin-top: -26px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+
+.pop-text h5 {
+    margin-top: 5px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+
+.pop-text ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px -4px 0px;
+}
+
+.pop-text li {
+    line-height: 1.8rem;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+
+.pop-text li:before {
+    content: url(./assets/icons/dot.svg);
+    margin-right: 10px;
+}
+
+.pets-content {
+    width: 93.75%;
+    height: 43.5625rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.heading3 {
+    margin: 0rem 0rem 27.78rem 25.07rem;
+    width: 25rem;
+    height: 5.625rem;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.1875rem;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.cards-visible {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card1,
+.card2,
+.card3 {
+    position: absolute;
+    width: 16.875rem;
+    height: 27.1875rem;
+    top: 14.375rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #FAFAFA;
+    border-radius: 9px;
+}
+
+.card1 {
+    padding: 1.875rem 0rem 0rem 2.1875rem;
+    left: 9rem;
+}
+
+.card2 {
+    padding: 1.875rem 0rem 0rem 2.1875rem;
+    left: 31.5rem;
+}
+
+.card3 {
+    padding: 0rem;
+    left: 54rem;
+}
+
+.photo {
+    display: flex;
+    align-self: center;
+    position: absolute;
+    left: 0.5%;
+    right: 1%;
+    top: 0%;
+    bottom: 0%;
+    background-repeat: no-repeat;
+}
+
+.card1-text,
+.card2-text,
+.card3-text {
+    height: 1.4375rem;
+    position: absolute;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 1.4375rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+}
+
+.card1-text {
+    width: 74px;
+    left: 99px;
+    top: 18.75rem;
+}
+
+.card2-text {
+    width: 83px;
+    left: 94.5px;
+    top: 18.75rem;
+}
+
+.card3-text {
+    width: 68px;
+    left: 6.3125rem;
+    top: 18.75rem;
+}
+
+.btn-s {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    width: 188px;
+    height: 3.25rem;
+    left: 42px;
+    top: 353px;
+    flex: none;
+    order: 2;
+    align-self: center;
+    flex-grow: 0;
+    padding: 15px 2.8125rem;
+    box-shadow: inset 0 0 0 2px #F1CDB3;
+    box-sizing: border-box;
+    border-radius: 6.25rem;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.0625rem;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    outline: none;
+    border: none;
+    color: #292929;
+    background: #FAFAFA;
+}
+
+.btn-arrow-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.4375rem 0rem 0rem 1.1875rem;
+    position: absolute;
+    width: 3.25rem;
+    height: 3.25rem;
+    left: 2.5rem;
+    top: 26.375rem;
+    border: 2px solid #F1CDB3;
+    box-sizing: border-box;
+    border-radius: 6.25rem;
+}
+
+.arrow-left {
+    position: absolute;
+    left: 36.54%;
+    right: 36.54%;
+    top: 44.23%;
+    bottom: 44.23%;
+    flex: none;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+    margin: 0rem 0rem;
+    background-image: url(./assets/icons/ArrowL.svg);
+    background-repeat: no-repeat;
+}
+
+.btn-arrow-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.4375rem 0rem 0rem 1.1875rem;
+    position: absolute;
+    width: 3.25rem;
+    height: 3.25rem;
+    left: 74.25rem;
+    top: 26.375rem;
+    border: 2px solid #F1CDB3;
+    box-sizing: border-box;
+    border-radius: 6.25rem;
+    transform: rotate(-180deg);
+}
+
+.arrow-right {
+    position: absolute;
+    left: 36.54%;
+    right: 36.54%;
+    top: 44.23%;
+    bottom: 44.23%;
+    flex: none;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+    margin: 0px 0px;
+    transform: rotate(-180deg);
+    background-image: url(./assets/icons/ArrowR.svg);
+    background-repeat: no-repeat;
+}
+
+.button_primary2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 0rem 0rem 2.8125rem;
+    position: absolute;
+    width: 16.3125rem;
+    height: 3.25rem;
+    left: 31.875rem;
+    top: 45.3125rem;
+    background: #F1CDB3;
+    border-radius: 6.25rem;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.0625rem;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    outline: none;
+    border: none;
+}
+
+.help {
+    position: absolute;
+    width: 100%;
+    height: 38.1875rem;
+    left: 0px;
+    top: 148.3125rem;
+    background: #FFFFFF;
+}
+
+.help-content {
+    display: flex;
+    width: 93.75%;
+    height: 26.9375rem;
+    margin: 5rem 22.5rem 6.25rem 2.5rem;
+}
+
+.help-heading {
+    position: absolute;
+    width: 19.375rem;
+    height: 5.625rem;
+    margin: 0.05rem 50.375rem 27.562rem 27.87rem;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.1875rem;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.pet-grid {
+    display: grid;
+    width: 73rem;
+    height: 20rem;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 1rem;
+    margin: 8.175rem 0rem 0rem 3rem;
+}
+
+.pet-food {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 5.125rem;
+    height: 7.0625rem;
+    margin-left: 2.45rem;
+}
+
+.pet-food-icon {
+    display: flex;
+    width: 3.75rem;
+    height: 3.75rem;
+    background-image: url(./assets/icons/icon-pet-food.svg);
+}
+
+.pet-food-text,
+.transportation-text,
+.toys-text,
+.bowls-text,
+.shampoos-text,
+.vitamins-text,
+.medicines-text,
+.collars-text,
+.sleeping-area-text {
+    height: 1.4375rem;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 115%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #545454;
+}
+
+.pet-food-text {
+    width: 5.325rem;
+    margin-top: 1.875rem;
+    margin-left: 2px;
+    letter-spacing: 0.07em;
+}
+
+.transportation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 9.375rem;
+    height: 7.0625rem;
+    margin-left: 1.85rem;
+}
+
+.transportation-icon {
+    width: 3.75rem;
+    height: 3.75rem;
+    margin-left: -1px;
+    background-image: url(./assets/icons/icon-transportation.svg);
+}
+
+.transportation-text {
+    position: absolute;
+    width: 9.375rem;
+    margin-top: 5.625rem;
+    letter-spacing: 0.06em;
+}
+
+.toys {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 3.75rem;
+    height: 7.0625rem;
+    margin-left: 4.78rem;
+}
+
+.toys-icon {
+    width: 3.75rem;
+    height: 3.75rem;
+    margin-left: 2px;
+    background-image: url(./assets/icons/icon-toys.svg);
+}
+
+.toys-text {
+    width: 2.875rem;
+    margin-left: 3px;
+    margin-top: 1.875rem;
+    letter-spacing: 0.05em;
+}
+
+.bowls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 9.5625rem;
+    height: 7.0625rem;
+    margin-left: -1.67rem;
+}
+
+.bowls-icon {
+    width: 3.75rem;
+    height: 3.75rem;
+    margin-left: 2px;
+    background-image: url(./assets/icons/icon-bowls-and-cups.svg);
+}
+
+.bowls-text {
+    width: 9.8rem;
+    margin-top: 1.875rem;
+    margin-left: 5px;
+    letter-spacing: 0.064em;
+}
+
+.shampoos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 6.3125rem;
+    height: 7.0625rem;
+    margin-left: -1rem;
+}
+
+.shampoos-icon {
+    width: 3.75rem;
+    height: 3.75rem;
+    background-image: url(./assets/icons/icon-shampoos.svg);
+}
+
+.shampoos-text {
+    width: 6.3125rem;
+    margin-top: 1.875rem;
+    letter-spacing: 0.06em;
+}
+
+.vitamins {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 5.5625rem;
+    height: 7.0625rem;
+    margin-left: 7.63rem;
+}
+
+.vitamins-icon {
+    width: 3.75rem;
+    height: 3.75rem;
+    background-image: url(./assets/icons/icon-vitamins.svg);
+}
+
+.vitamins-text {
+    width: 5.5625rem;
+    margin-left: 2px;
+    margin-top: 1.84rem;
+    letter-spacing: 0.064em;
+}
+
+.medicines {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 6.3125rem;
+    height: 7.0625rem;
+    margin-left: 7.6rem;
+}
+
+.medicines-icon {
+    width: 3.75rem;
+    height: 3.75rem;
+    background-image: url(./assets/icons/icon-medicines.svg);
+}
+
+.medicines-text {
+    width: 6.3125rem;
+    margin-top: 1.875rem;
+    letter-spacing: 0.058em;
+}
+
+.collars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10.3125rem;
+    height: 7.0625rem;
+    margin-left: 7.4rem;
+}
+
+.collars-icon {
+    width: 3.75rem;
+    height: 3.75rem;
+    margin-left: 3px;
+    background-image: url(./assets/icons/icon-collars-leashes.svg);
+}
+
+.collars-text {
+    width: 10.375rem;
+    margin-top: 1.875rem;
+    margin-left: 3px;
+    letter-spacing: 0.06em;
+}
+
+.sleeping-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 8.9375rem;
+    height: 7.0625rem;
+    margin-left: 7.5rem;
+}
+
+.sleeping-area-icon {
+    width: 3.75rem;
+    height: 3.75rem;
+    margin-left: 3px;
+    background-image: url(./assets/icons/icon-sleeping-area.svg);
+}
+
+.sleeping-area-text {
+    width: 9rem;
+    margin-top: 1.875rem;
+    margin-left: 3px;
+    letter-spacing: 0.06em;
+}
+
+.donation {
+    position: absolute;
+    width: 100%;
+    height: 29rem;
+    left: 0rem;
+    top: 186.5rem;
+    background: #F6F6F6;
+}
+
+.donation-content {
+    display: flex;
+    flex-direction: row;
+    width: 93.75%;
+    height: 17.75rem;
+}
+
+.donation-dog {
+    width: 31.5625rem;
+    height: 16.3125rem;
+    margin: 5.6875rem 57.0625rem 6.9375rem 11.47rem;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    width: 23.75rem;
+    height: 17.625rem;
+    margin: 5rem 0rem 0rem -55.1rem;
+}
+
+.donation-heading {
+    width: 18.75rem;
+    height: 5.625rem;
+    margin: 0.04rem -0.12rem;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.1875rem;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.donation-subheading {
+    margin: 1.27rem -0.125rem;
+    width: 19.25rem;
+    height: 1.0625rem;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9375rem;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.credit-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: -1.5px;
+    margin-top: -1px;
+    padding: 10px 0px 0px 0.9375rem;
+    width: 21.78rem;
+    height: 42.5px;
+    background: #F1CDB3;
+    border-radius: 9px;
+}
+
+.credit-card-content {
+    margin-top: -1rem;
+    width: 19.9375rem;
+    height: 1.4375rem;
+    flex: none;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+}
+
+.credit-icon {
+    width: 1.875rem;
+    height: 1.4375rem;
+    margin: 2.6px 0px 0px -0.4px;
+}
+
+.credit-text {
+    margin: -1.68rem 0rem 0rem 2.76rem;
+    width: 17.1875rem;
+    height: 1.4375rem;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 115%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+    text-decoration: none;
+}
+
+.donation-text {
+    margin-top: 1.2rem;
+    margin-left: -2px;
+    width: 23.75rem;
+    height: 4.5rem;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 0.7562rem;
+    line-height: 150%;
+    letter-spacing: 0.077em;
+    display: flex;
+    align-items: center;
+    color: #B2B2B2;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 21.875rem;
+    top: 215.375rem;
+    overflow: hidden;
+}
+
+.footer-background {
+    display: flex;
+    width: 100%;
+    height: 21.875rem;
+    background: url(./assets/images/noise_transparent.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 75rem;
+    height: 19.6875rem;
+    margin: -0.25rem 0rem 0rem 2.5rem;
+}
+
+.footer-puppy {
+    display: flex;
+    align-self: flex-end;
+    margin-left: 10rem;
+    margin-bottom: -0.125rem;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    width: 17.375rem;
+    height: 14.625rem;
+    margin: 3.8125rem 0rem 3.75rem 0rem;
+}
+
+.title-footer,
+.location-heading {
+    position: absolute;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    height: 5.625rem;
+    font-size: 2.1875rem;
+}
+
+.title-footer {
+    width: 17.4375rem;
+    margin: 0rem 9rem 0rem 0rem;
+}
+
+.mail {
+    display: flex;
+    flex-direction: row;
+    width: 15.6875rem;
+    height: 2rem;
+    margin-top: 7.97rem;
+}
+
+.mail-icon {
+    display: flex;
+    width: 2.5rem;
+    height: 2rem;
+    margin-top: 1px;
+}
+
+.mail-text,
+.phone-text {
+    height: 1.4375rem;
+    display: flex;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+
+.mail-text {
+    width: 11.9375rem;
+    margin: -1.6rem 0rem 0.25rem 3.75rem;
+}
+
+.phone {
+    display: flex;
+    width: 14.9375rem;
+    height: 2rem;
+    margin-top: 2.49rem;
+}
+
+.phone-icon {
+    display: flex;
+    width: 2.5rem;
+    height: 2rem;
+}
+
+.phone-text {
+    width: 11.25rem;
+    margin: -1.6875rem 0rem 0.25rem 3.75rem;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    width: 18.875rem;
+    height: 14.625rem;
+    margin: 3.8125rem 0rem 3.75rem 10rem;
+}
+
+.location-heading {
+    width: 16.875rem;
+    margin: 0rem 1.9375rem 9rem 0.0625rem;
+}
+
+.boston {
+    display: flex;
+    flex-direction: row;
+    width: 18.875rem;
+    height: 2.875rem;
+    margin-top: 7.99rem;
+}
+
+.boston-icon {
+    display: flex;
+    width: 1.375rem;
+    height: 2rem;
+    margin-top: 1px;
+}
+
+.boston-text,
+.london-text {
+    width: 16.25rem;
+    display: flex;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+
+.boston-text {
+    height: 2.875rem;
+    margin: -3.2rem 0rem 0rem 2.63rem;
+}
+
+.london {
+    display: flex;
+    width: 18.875rem;
+    height: 2rem;
+    margin-top: 2rem;
+}
+
+.london-icon {
+    display: flex;
+    width: 1.375rem;
+    height: 2rem;
+}
+
+.london-text {
+    height: 1.4375rem;
+    margin: -1.7rem 0rem 0rem 2.63rem;
+}
+
+a {
+    text-decoration: none;
+    color: #F1CDB3;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.link1:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+.link2:hover {
+    color: #FAFAFA;
+    transform: scale(1.1);
+}
+
+.credit-text:hover {
+    color: #FAFAFA;
+}
+
+.active-link:hover {
+    color: #FAFAFA;
+    border: none;
+    transform: scale(1.1);
+}
+
+.btn1:hover,
+.btn-s:hover,
+.btn-arrow-right:hover,
+.btn-arrow-left:hover,
+.button_primary2:hover {
+    cursor: pointer;
+    background: #FDDCC4;
+}
+
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover,
+.card5:hover,
+.card6:hover,
+.card7:hover,
+.card8:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+}
+
+.mail-icon:hover,
+.mail-text:hover,
+.phone-icon:hover,
+.phone-text:hover,
+.london-icon:hover,
+.london-text:hover,
+.boston-icon:hover,
+.boston-text:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 1279px) {
+    .desktop {
+        width: 48rem;
+        height: 330.6875rem;
+    }
+    .header {
+        width: 44.25rem;
+        height: 3.75rem;
+        margin: 1.875rem 1.875rem;
+    }
+    .start-screen {
+        width: 48rem;
+        height: 72.8125rem;
+    }
+    .start-screen-background {
+        width: 48rem;
+        height: 72.8125rem;
+    }
+    .start-screen-content {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .content {
+        margin: -27.53rem 0rem 0rem 7.06rem;
+    }
+    .heading {
+        margin-left: -10.5rem;
+    }
+    .btn1 {
+        margin-left: 15.9rem;
+    }
+    .start-screen-puppy {
+        width: 35.5625rem;
+        height: 37.0625rem;
+        margin-top: 24.5rem;
+        margin-left: -23.3rem;
+        bottom: 0rem;
+    }
+    .about {
+        width: 48rem;
+        height: 65.5rem;
+    }
+    .about-content {
+        margin: 0 auto;
+    }
+    .heading2 {
+        margin-left: 3px;
+    }
+    .about-pets {
+        margin: 33.75rem 0rem 0rem 13.1rem;
+    }
+    .text2 {
+        margin: -54.1rem 0rem 0rem 8.9rem;
+    }
+    .subheading21 {
+        margin: 9rem 0px 0px 3px;
+    }
+    .subheading22 {
+        margin: -16.6rem 0px 0px 3px;
+    }
+    .pets {
+        width: 48rem;
+        height: 54.8125rem;
+        top: 138.3125rem;
+    }
+    .heading3 {
+        margin: 0rem 0rem 27.8rem 10.07rem;
+    }
+    .card1 {
+        left: 5.69rem;
+    }
+    .card2 {
+        left: 25.1rem;
+    }
+    .card3 {
+        display: none;
+    }
+    .photo1,
+    .photo2 {
+        left: 1%;
+    }
+    .card1-text,
+    .card2-text {
+        margin-left: 2px;
+    }
+    .btn-s {
+        margin-left: 2px;
+    }
+    .btn-arrow-left {
+        left: 1.9rem;
+    }
+    .btn-arrow-right {
+        left: 42.85rem;
+    }
+    .button_primary2 {
+        left: 15.835rem;
+    }
+    .help {
+        width: 48rem;
+        height: 48.6875rem;
+        top: 193.125rem;
+    }
+    .help-heading {
+        margin: 0.77px 0rem 0rem 11.86rem;
+    }
+    .pet-grid {
+        width: 40rem;
+        height: 17.5625rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 0rem;
+        grid-row-gap: 3.4rem;
+        margin: 9.375rem 0rem 0rem 3rem;
+    }
+    .pet-food {
+        margin-left: 1.59rem;
+    }
+    .transportation {
+        margin-left: 0.42rem;
+    }
+    .transportation-text {
+        margin-left: 0.16rem;
+    }
+    .toys {
+        margin-left: 4.3rem;
+    }
+    .bowls {
+        margin-left: -0.69rem;
+    }
+    .shampoos {
+        margin-left: 1.98rem;
+    }
+    .shampoos-text {
+        margin-left: 1.3px;
+    }
+    .vitamins {
+        margin-left: 3.4rem;
+        margin-top: 1px;
+    }
+    .vitamins-text {
+        margin-left: 1.3px;
+    }
+    .medicines {
+        margin-left: 0.99rem;
+    }
+    .collars {
+        margin-left: -0.1rem;
+        margin-top: 0.7px;
+    }
+    .collars-text {
+        margin-left: 5px;
+    }
+    .sleeping-area {
+        margin-left: 1.64rem;
+        margin-top: -1px;
+    }
+    .sleeping-area-text {
+        margin-left: 5px;
+    }
+    .donation {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 48rem;
+        height: 48.9375rem;
+        top: 241.8125rem;
+    }
+    .donation-heading {
+        margin: 3px 0px 0px 0.5px;
+    }
+    .donation-subheading {
+        margin: 1.27rem 0.6px;
+    }
+    .donation-content {
+        flex-direction: column-reverse;
+    }
+    .information {
+        margin: 0rem 0rem 3.85rem 12.1rem;
+    }
+    .credit-card {
+        margin-top: -2px;
+        margin-left: 0.9px;
+    }
+    .credit-icon {
+        margin-top: 2.8px;
+    }
+    .credit-text {
+        margin: -1.75rem 0rem 0rem 2.8rem;
+    }
+    .donation-text {
+        margin-top: 1.3rem;
+        margin-left: 0px;
+    }
+    .donation-dog {
+        margin: 0rem 0rem 6.25rem 8.2rem;
+    }
+    .footer {
+        width: 48rem;
+        height: 39.9375rem;
+        top: 290.75rem;
+    }
+    .footer-puppy {
+        margin-left: 12.1rem;
+        margin-top: 1px;
+    }
+    .contacts {
+        margin: 2.2rem 0rem 3.75rem 1.4688rem;
+    }
+    .title-footer {
+        margin: 0rem 9rem 0rem 0.04rem;
+    }
+    .location {
+        margin: 2.2rem 0rem 0rem 3.75rem;
+    }
+    .location-heading {
+        margin: 0rem 1.9375rem 0rem 0.0825rem;
+    }
+    .boston-text {
+        margin: -3.25rem 0rem 0rem 2.66rem;
+    }
+    .london {
+        margin-top: 2.08rem;
+    }
+    .london-text {
+        margin: -1.7rem 0rem 0rem 2.65rem;
+    }
+    .footer-background {
+        width: 48rem;
+        height: 39.9375rem;
+        margin: 0rem;
+    }
+    .popup {
+        width: 768px;
+        height: 877px;
+    }
+    .popup-content {
+        width: 82.03%;
+        height: 39.9%;
+    }
+    .close-btn {
+        left: 89.9%;
+        top: 24.2%;
+    }
+    .pop-img {
+        width: 55.555%;
+        height: 100%;
+    }
+    .pop-img img {
+        width: 350px;
+        height: 350px;
+        border-radius: 9px;
+    }
+    .pop-text {
+        margin: 11px 0px 0px 11px;
+        width: 44.445%;
+    }
+    .pop-text h3 {
+        font-size: 35px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+        color: #000000;
+    }
+    .pop-text h4 {
+        margin-top: -6px;
+        font-size: 20px;
+        line-height: 115%;
+        letter-spacing: 0.06em;
+        color: #000000;
+    }
+    .pop-text h5 {
+        width: 261px;
+        margin-top: 5px;
+        font-size: 13px;
+        line-height: 115%;
+        letter-spacing: 0.06em;
+        color: #000000;
+    }
+    .pop-text ul {
+        margin: 0px 0px 58px 0px;
+    }
+    .pop-text li {
+        line-height: 23px;
+        font-size: 15px;
+        letter-spacing: 0.06em;
+        color: #000000;
+    }
+    .pop-text li:before {
+        content: url(./assets/icons/dot.svg);
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .desktop {
+        width: 20rem;
+        height: 292.75rem;
+        overflow: hidden;
+    }
+    .header {
+        width: 16.0625rem;
+        height: 3.75rem;
+        margin: 1.875rem 0.6rem;
+    }
+    .logo {
+        z-index: 50;
+    }
+    .burger {
+        display: flex;
+        margin: 20px 0px 0px 0px;
+        height: 1.375rem;
+        z-index: 40;
+    }
+    .burger-v {
+        display: flex;
+        margin: 20px 0px 0px 0px;
+        height: 1.375rem;
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        z-index: 40;
+    }
+    .burger:hover {
+        cursor: pointer;
+    }
+    .nav-menu {
+        display: none;
+    }
+    .visible {
+        display: flex;
+        position: fixed;
+        top: 0%;
+        left: calc(100% - 320px);
+        right: 100%;
+        width: 320px;
+        height: 823px;
+        background: #292929;
+        animation-name: menuOpen;
+        animation-duration: 1s;
+        z-index: 40;
+    }
+    @keyframes menuOpen {
+        from {
+            left: 100%;
+        }
+        to {
+            left: calc(100% - 320px);
+        }
+    }
+    .invisible {
+        display: flex;
+        position: fixed;
+        top: 0px;
+        left: 100%;
+        right: 0px;
+        width: 320px;
+        height: 823px;
+        background: #292929;
+        animation-name: menuClose;
+        animation-duration: 1s;
+        z-index: 40;
+    }
+    @keyframes menuClose {
+        from {
+            left: calc(100% - 320px);
+        }
+        to {
+            left: 100%;
+        }
+    }
+    ul {
+        display: flex;
+        align-items: center;
+    }
+    .active-link,
+    .link2,
+    .link3,
+    .link4 {
+        display: flex;
+        justify-content: center;
+        width: 20rem;
+        margin-left: 0px;
+        font-size: 32px;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 160%;
+        color: #FAFAFA;
+        flex: none;
+        order: 0;
+        align-self: center;
+        flex-grow: 0;
+    }
+    .active-link {
+        margin-top: -164px;
+        margin-left: 2.8px;
+        letter-spacing: 0.08em;
+        border: none;
+    }
+    .active-link:after {
+        position: absolute;
+        top: 51px;
+        left: 11.2%;
+        width: 76%;
+        border-bottom: 0.1875rem solid #F1CDB3;
+        content: "";
+    }
+    .link2 {
+        margin-top: -70px;
+        margin-left: 2.9px;
+        letter-spacing: 0.08em;
+    }
+    .link3 {
+        margin-top: 20px;
+        margin-left: 2.8px;
+        letter-spacing: 0.08em;
+    }
+    .link4 {
+        margin-top: 112px;
+        margin-left: 2.8px;
+        letter-spacing: 0.09em;
+    }
+    .start-screen {
+        width: 20rem;
+        height: 51.4375rem;
+    }
+    .start-screen-background {
+        width: 20rem;
+        height: 51.4375rem;
+    }
+    .start-screen-content {
+        width: 18rem;
+        margin-left: -1rem;
+    }
+    .content {
+        width: 18.75rem;
+        height: 18.5rem;
+        margin: -29.53rem 0rem 0rem 2rem;
+        word-spacing: 2.5px;
+    }
+    .heading {
+        width: 14rem;
+        margin: 2px 0px 0px -12px;
+        font-size: 25px;
+        letter-spacing: 0.039em;
+        text-align: center;
+    }
+    .subheading {
+        margin: 42px 0px 0px -11px;
+        width: 300px;
+        height: 96px;
+        font-size: 15px;
+        line-height: 160%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        word-spacing: 0px;
+    }
+    .btn1 {
+        margin: 42px 0px 0px -13px;
+    }
+    .start-screen-puppy {
+        width: 16.25rem;
+        height: 16.9856rem;
+        margin-top: 23.2rem;
+        margin-left: -30.75rem;
+    }
+    .about {
+        width: 20rem;
+        height: 60.875rem;
+        top: 51.4375rem;
+    }
+    .heading2 {
+        font-size: 25px;
+        text-align: center;
+        width: 15rem;
+        margin-left: 25px;
+    }
+    .about-pets {
+        margin: 34.4rem 0rem 0rem 0rem;
+        transform: scale(0.869);
+    }
+    .text2 {
+        width: 18rem;
+        margin: 0 auto;
+        margin-top: -58rem;
+    }
+    .subheading21 {
+        width: 17rem;
+        font-size: 15px;
+        line-height: 160%;
+        margin: 14.05rem 0rem 0rem 0.56rem;
+        letter-spacing: 0.087em;
+        text-align: justify;
+    }
+    .subheading22 {
+        width: 17rem;
+        font-size: 15px;
+        line-height: 160%;
+        margin: -22.36rem 0rem 0rem 0.56rem;
+        letter-spacing: 0.09em;
+        text-align: justify;
+    }
+    .pets {
+        width: 20rem;
+        height: 49.4375rem;
+        top: 112.3125rem;
+    }
+    .card1 {
+        margin: -82px 0px 0px -67px;
+    }
+    .photo1 {
+        top: -0.5%
+    }
+    .card1-text {
+        margin: 0 auto;
+    }
+    .card2 {
+        display: none;
+    }
+    .btn-s {
+        margin: 0 auto;
+    }
+    .heading3 {
+        width: 18.75rem;
+        font-size: 25px;
+        margin: -550px 0px 0px 8px;
+    }
+    .btn-arrow-right {
+        margin: 181px 0px 0px -485px;
+    }
+    .btn-arrow-left {
+        margin: 181px 0px 0px 38px;
+    }
+    .button_primary2 {
+        margin: -28px 0px 0px -224px;
+    }
+    .help {
+        width: 20rem;
+        height: 46.5625rem;
+        top: 161.75rem;
+    }
+    .help-content {
+        height: 40rem;
+        margin: 5rem 22.5rem 6.25rem 1.04rem;
+    }
+    .help-heading {
+        font-size: 25px;
+        text-align: center;
+        width: 16rem;
+        margin: -3.2rem 0rem 0rem 1rem;
+    }
+    .pet-grid {
+        width: 20rem;
+        height: 40rem;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 2.7rem;
+        grid-row-gap: 1.5rem;
+        margin: 1.24rem 0rem 0rem 0.5rem;
+        transform: scale(0.85);
+    }
+    .pet-food {
+        margin: 0px 0px 0px -3px;
+    }
+    .pet-food-text {
+        font-size: 17.7px;
+        margin: 21px 0px 0px 12px;
+    }
+    .transportation {
+        margin: 0px 0px 0px -2px;
+    }
+    .transportation-text {
+        font-size: 17.9px;
+        margin: 5.1rem 0rem 0rem 1.2rem;
+    }
+    .toys {
+        margin: 0px 0px 0px 6.5px;
+    }
+    .toys-text {
+        font-size: 17.7px;
+        margin: 22px 0px 0px 8px;
+    }
+    .bowls {
+        margin: 0px 0px 0px -3px;
+    }
+    .bowls-text {
+        font-size: 17.7px;
+        margin: 22px 0px 0px 24px;
+    }
+    .shampoos {
+        margin: 0px 0px 0px -13px;
+    }
+    .shampoos-text {
+        font-size: 17.7px;
+        margin: 22px 0px 0px 11px;
+    }
+    .vitamins {
+        margin: 0px 0px 0px 29px;
+    }
+    .vitamins-text {
+        font-size: 17.7px;
+        margin: 22px 0px 0px 12px;
+    }
+    .medicines {
+        margin: 1px 0px 0px -13px;
+    }
+    .medicines-text {
+        font-size: 17.7px;
+        margin: 22px 0px 0px 14px;
+    }
+    .collars {
+        margin: 1px 0px 0px -9px;
+    }
+    .collars-text {
+        font-size: 17.7px;
+        margin: 22px 0px 0px 23px;
+    }
+    .sleeping-area {
+        margin: 0px 0px 0px -35px;
+    }
+    .sleeping-area-text {
+        font-size: 17.7px;
+        margin: 23px 0px 0px 20px;
+    }
+    .donation {
+        width: 20rem;
+        height: 33.8875rem;
+        margin-top: -26rem;
+    }
+    .donation-dog {
+        width: 10rem;
+    }
+    .donation-dog img {
+        width: 260px;
+        height: 135.2px;
+        margin: 0px 0px 57px -101px;
+    }
+    .information {
+        width: 18.75rem;
+        margin: 0px 0px 55px 0px;
+    }
+    .donation-heading {
+        width: 13rem;
+        text-align: center;
+        margin: 0px 0px 11px 57px;
+    }
+    .donation-subheading {
+        width: 18rem;
+        margin: 0px 0px 24px 23px;
+        font-size: 15px;
+        letter-spacing: 0.002em;
+    }
+    .credit-card-content {
+        width: 17rem;
+    }
+    .credit-card {
+        margin: 0px 0px 20px 19px;
+        width: 281px;
+    }
+    .credit-text {
+        width: 13rem;
+        font-size: 15px;
+    }
+    .donation-text {
+        width: 280px;
+        height: 90px;
+        margin: 0px 0px -13px 20px;
+        font-size: 12px;
+        letter-spacing: 0.085em;
+        text-align: justify;
+    }
+    .donation-heading {
+        font-size: 25px;
+    }
+    .footer {
+        width: 20rem;
+        height: 50.4375rem;
+        margin-top: -48.54rem;
+    }
+    .footer-puppy {
+        display: flex;
+        width: 18rem;
+        height: auto;
+        margin-left: -10px;
+        margin-top: 26px;
+    }
+    .footer-puppy img {
+        width: 260px;
+        height: 269px;
+        margin-top: 1px;
+    }
+    .footer-background {
+        width: 20rem;
+        height: 50.4375rem;
+    }
+    .footer-content {
+        width: 20rem;
+    }
+    .title-footer {
+        width: 18rem;
+        font-size: 25px;
+        text-align: center;
+        margin: -2px 0px 0px -5px;
+    }
+    .location-heading {
+        width: 18rem;
+        font-size: 25px;
+        text-align: center;
+        margin: 0rem 0rem 0rem 0.4rem;
+    }
+    .location {
+        margin: -48px 0rem 0rem -30px;
+    }
+    .contacts {
+        margin: 2.2rem 0rem 3.75rem -1.1812rem;
+    }
+    .mail {
+        margin: 102px 0px 0px 13px;
+    }
+    .mail-text {
+        margin: -27px 0px 0px 73px;
+    }
+    .phone {
+        margin: 44px 0px 0px 19px;
+    }
+    .phone-text {
+        margin: -27px 0px 0px 79px;
+    }
+    .boston {
+        margin-top: 6.96rem;
+    }
+    .boston-text {
+        margin: -53px 0px 0px 42px;
+    }
+    .london {
+        margin-top: 2.5rem;
+    }
+    .london-text {
+        margin-top: -28px;
+    }
+    .popup {
+        width: 320px;
+        height: 791px;
+    }
+    .popup-content {
+        width: 75%;
+        height: 43.1%;
+        margin-top: -10px;
+    }
+    .close-btn {
+        left: 80.6%;
+        top: 21.3%;
+    }
+    .pop-img {
+        display: none;
+    }
+    .pop-text {
+        width: 240px;
+        margin: 0px 0px 0px 0px;
+    }
+    .pop-text h3 {
+        margin-top: 11px;
+        margin-left: 4px;
+        text-align: center;
+    }
+    .pop-text h4 {
+        margin-top: -11px;
+        text-align: center;
+    }
+    .pop-text h5 {
+        width: 220px;
+        margin-top: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 13px;
+    }
+    .pop-text ul {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 0px 29px 11px;
+        align-items: initial;
+    }
+    .pop-text li {
+        line-height: 1.48rem;
+    }
+    .pop-text li:before {
+        content: url(./assets/icons/dot.svg);
+        margin-right: 10px;
+    }
+}
