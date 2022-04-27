@@ -1,0 +1,5 @@
+1~Computer~images/product1.png~2000
+2~Laptop~images/product2.png~15000
+3~Tablet~images/product3.png~1000
+4~Speakers~images/product4.png~50
+7~Holo lens~images/Microsoft-Hololens-augmented-reality-headset.webp~5000
